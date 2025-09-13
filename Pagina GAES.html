@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SportAlgorithmus - Introducción</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f4f8;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #1a2a44;
+            padding: 1em;
+            text-align: center;
+            color: #fff;
+            animation: fadeIn 2s;
+        }
+        #logo {
+            max-width: 300px;
+            height: auto;
+        }
+        nav {
+            background-color: #2e4057;
+            padding: 1em;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav li {
+            display: inline;
+            margin: 0 1em;
+        }
+        nav a {
+            color: #ff4500;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #ffd700;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        h1 {
+            font-size: 3em;
+            margin: 0;
+            color: #ff4500;
+            text-transform: uppercase;
+        }
+        h2 {
+            color: #1a2a44;
+            border-bottom: 3px solid #ff4500;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+        section {
+            padding: 3em;
+            background-color: #fff;
+            margin: 1em;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, opacity 0.5s;
+            border-left: 5px solid #000000;
+        }
+        section:hover {
+            transform: scale(1.02);
+            opacity: 0.95;
+        }
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+        footer {
+            background-color: #000000;
+            text-align: center;
+            padding: 1em;
+            color: #ffd700;
+            width: 100%;
+        }
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0,0,0,0.4);
+        }
+        .modal-content {
+            background-color: #fff;
+            margin: 15% auto;
+            padding: 20px;
+            border: 2px solid #1a2a44;
+            width: 80%;
+            max-width: 400px;
+            color: #333;
+            text-shadow: none;
+            border-radius: 10px;
+        }
+        .close {
+            color: #ff4500;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+        }
+        .close:hover,
+        .close:focus {
+            color: #000000;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        form input, form button {
+            display: block;
+            width: 100%;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #1a2a44;
+        }
+        form button {
+            background-color: #ff4500;
+            color: #fff;
+            cursor: pointer;
+        }
+        form button:hover {
+            background-color: #ffd700;
+        }
+        iframe {
+            display: block;
+            margin: 1em auto;
+            border: 2px solid #1a2a44;
+            border-radius: 5px;
+        }
+        @media (max-width: 600px) {
+            nav ul {
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+            }
+            nav li {
+                margin: 0.5em 0;
+            }
+            iframe {
+                width: 100%;
+                height: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header id="inicio">
+        <img id="logo" src="https://placehold.co/300x150?text=SportAlgorithmus+Logo" alt="SportAlgorithmus Logo">
+        <h1>SportAlgorithmus</h1>
+        <p>Software desarrollado por: Nicolás David Palacios Linares & Joshua Daniel Higuera Forero</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#introduccion">Introducción</a></li>
+            <li><a href="#mision">Misión</a></li>
+            <li><a href="#vision">Visión</a></li>
+            <li><a href="#valores">Valores</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#video">Video Demostrativo</a></li>
+            <li><a href="#colores">Simbolismo de Colores</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+            <li><a href="#" id="login-link">Iniciar Sesión</a></li>
+            <li><a href="#" id="register-link">Registro</a></li>
+        </ul>
+    </nav>
+
+    <section id="introduccion">
+        <h2>Introducción</h2>
+        <p>En el mundo digital, la eficiencia es clave. En Sport Algorithmus, creamos software avanzado que aprovecha el poder de los algoritmos para analizar datos y ofrecer insights críticos. Nuestras soluciones están diseñadas para cualquier entidad que aspire a maximizar su rendimiento y alcanzar sus objetivos. Te invitamos a explorar cómo nuestra tecnología puede revolucionar tu enfoque.</p>
+        <p>Última actualización: Miércoles, 10 de septiembre de 2025, 17:14 -05.</p>
+    </section>
+
+    <section id="mision">
+        <h2>Misión</h2>
+        <p>Desarrollar software dedicado al crecimiento de implementación de servicios de software apoyándonos permanentemente en la evolución de los nuevos lenguajes y códigos de ultima tecnología.</p>
+        <p>Impulsar a la industria permanentemente la creación y la actualización a su software que se encuentran sus procesos productivos para que la compañía permanezca a la vanguardia del desarrollo.</p>
+    </section>
+
+    <section id="vision">
+        <h2>Visión</h2>
+        <p>La empresa busca liderar en soluciones de software innovadoras, destacándose por su excelencia técnica y compromiso con el cliente.</p>
+        <p>Fomenta un entorno colaborativo para el desarrollo personal y contribuye a mejorar la calidad de vida mediante tecnologías que beneficien a la sociedad incursionando en los mercados con crecimientos proyectados hasta el año 2030.</p>
+    </section>
+
+    <section id="valores">
+        <h2>Valores</h2>
+        <ul>
+            <li><strong>Innovación:</strong> Impulso constante hacia la creación de soluciones novedosas. Fomento de la experimentación y la adopción de nuevas tecnologías.</li>
+            <li><strong>Calidad:</strong> Compromiso con la excelencia en el desarrollo de software. Enfoque en la creación de productos robustos, fiables y eficientes.</li>
+            <li><strong>Integridad:</strong> Transparencia y honestidad en todas las interacciones. Construcción de relaciones de confianza con clientes y colaboradores.</li>
+            <li><strong>Colaboración:</strong> Trabajo en equipo y comunicación abierta. Fomento de un ambiente de apoyo y aprendizaje mutuo.</li>
+            <li><strong>Orientación al Cliente:</strong> Priorización de las necesidades y satisfacción del cliente. Creación de relaciones a largo plazo basadas en el éxito compartido.</li>
+            <li><strong>Aprendizaje Continuo:</strong> Inversión en el desarrollo profesional de los empleados. Adaptación constante a las últimas tendencias tecnológicas.</li>
+            <li><strong>Responsabilidad:</strong> Compromiso con el impacto ético y social del software. Prácticas sostenibles y respetuosas con el medio ambiente.</li>
+            <li><strong>Adaptabilidad:</strong> Capacidad de poder adaptarse a los cambios de la tecnología. Poder dar soluciones a los problemas de una manera rápida.</li>
+        </ul>
+    </section>
+
+    <section id="servicios">
+        <h2>Servicios</h2>
+        <ul>
+            <li><strong>Desarrollo de Software a Medida:</strong> Creación de soluciones personalizadas que se ajustan a los requerimientos específicos de cada cliente. Desarrollo de aplicaciones web, móviles y de escritorio.</li>
+            <li><strong>Desarrollo de Aplicaciones Móviles:</strong> Diseño y desarrollo de aplicaciones para dispositivos iOS y Android. Desarrollo de aplicaciones nativas, híbridas o multiplataforma.</li>
+            <li><strong>Desarrollo Web:</strong> Creación de sitios web y aplicaciones web. Desarrollo de plataformas de comercio electrónico.</li>
+            <li><strong>Consultoría Tecnológica:</strong> Asesoramiento en la selección de tecnologías y herramientas. Análisis de necesidades y diseño de soluciones tecnológicas. Apoyo en la transformación digital.</li>
+            <li><strong>Mantenimiento y Soporte:</strong> Mantenimiento continuo de software para garantizar su correcto funcionamiento. Soporte técnico para resolver problemas y dudas. Actualizaciones y mejoras de software.</li>
+            <li><strong>Pruebas de Software y Control de Calidad:</strong> Garantizar que el software funcione correctamente. Pruebas de seguridad. Pruebas de rendimiento.</li>
+            <li><strong>Integración de Sistemas:</strong> Conexión de diferentes sistemas de software para mejorar la eficiencia. Migración de datos.</li>
+            <li><strong>Diseño UX/UI:</strong> Diseño de interfaces de usuario intuitivas y atractivas.</li>
+            <li><strong>Análisis de Datos:</strong> Implementación de sistemas de análisis de datos para mejorar la toma de decisiones.</li>
+            <li><strong>Desarrollo de Software Empresarial:</strong> Sistemas de planificación de recursos empresariales. Software de gestión de relaciones con los clientes.</li>
+            <li><strong>Servicios Adicionales:</strong></li>
+        </ul>
+    </section>
+
+    <section id="video">
+        <h2>Video Demostrativo</h2>
+        <p>Un ejemplo de cómo la tecnología y los algoritmos transforman la toma de decisiones en el fútbol, destacando el uso de datos e inteligencia artificial.</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/S941ctxREok" title="Sports Mediathon - Tecnología en el fútbol" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p>Créditos: Video proporcionado por UNTREF MEDIA[](https://www.youtube.com/channel/UCWRwRk8jnnhV_rvivYazSMg).</p>
+    </section>
+
+    <section id="colores">
+        <h2>Simbolismo de Colores</h2>
+        <ul>
+            <li><strong>Azul:</strong> Representa la confianza, estabilidad y precisión de nuestros algoritmos y soluciones.</li>
+            <li><strong>Naranja/Rojos:</strong> Evocan energía, dinamismo y la capacidad transformadora de nuestro software para generar resultados impactantes.</li>
+            <li><strong>Negro:</strong> Aporta sofisticación, robustez y profesionalismo a nuestra tecnología.</li>
+            <li><strong>Amarillo/Dorado:</strong> Simboliza la inteligencia, creatividad y la revelación de insights valiosos que nuestros algoritmos proporcionan.</li>
+        </ul>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p><strong>Nombre:</strong> Joshua Daniel Higuera Forero</p>
+        <p><strong>Correo:</strong> <a href="mailto:jhiguera@rogeliosalmonaied.edu.co">jhiguera@rogeliosalmonaied.edu.co</a></p>
+        <p><strong>CEL:</strong> <a href="https://wa.me/573138952814">3138952814</a></p>
+        <p><strong>Nombre:</strong> Nicolás David Palacios Linares</p>
+        <p><strong>Correo:</strong> <a href="mailto:palacios.linares.nico@gmail.com">palacios.linares.nico@gmail.com</a></p>
+        <p><strong>CEL:</strong> <a href="https://wa.me/573214322155">3214322155</a></p>
+        <button onclick="window.location.href='mailto:jhiguera@rogeliosalmonaied.edu.co,palacios.linares.nico@gmail.com?subject=Consulta%20SportAlgorithmus';">Enviar Correo</button>
+    </section>
+
+    <!-- Login Modal -->
+    <div id="login-modal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="close-login">&times;</span>
+            <h2>Iniciar Sesión</h2>
+            <form id="login-form">
+                <input type="email" placeholder="Correo Electrónico" required>
+                <input type="password" placeholder="Contraseña" required>
+                <button type="submit">Iniciar Sesión</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Register Modal -->
+    <div id="register-modal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="close-register">&times;</span>
+            <h2>Registro</h2>
+            <form id="register-form">
+                <input type="text" placeholder="Nombre" required>
+                <input type="email" placeholder="Correo Electrónico" required>
+                <input type="password" placeholder="Contraseña" required>
+                <button type="submit">Registrarse</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2025-2025 SportAlgorithmus. Todos los derechos reservados. | <a href="#inicio">Inicio</a> | <a href="#contacto">Contacto</a> | Política de Privacidad</p>
+    </footer>
+
+    <script>
+        // Smooth scrolling for navigation
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Login Modal
+        const loginModal = document.getElementById('login-modal');
+        const loginLink = document.getElementById('login-link');
+        const closeLogin = document.getElementById('close-login');
+
+        loginLink.onclick = function() {
+            loginModal.style.display = "block";
+        }
+        closeLogin.onclick = function() {
+            loginModal.style.display = "none";
+        }
+
+        // Register Modal
+        const registerModal = document.getElementById('register-modal');
+        const registerLink = document.getElementById('register-link');
+        const closeRegister = document.getElementById('close-register');
+
+        registerLink.onclick = function() {
+            registerModal.style.display = "block";
+        }
+        closeRegister.onclick = function() {
+            registerModal.style.display = "none";
+        }
+
+        // Close modals when clicking outside
+        window.onclick = function(event) {
+            if (event.target == loginModal) {
+                loginModal.style.display = "none";
+            }
+            if (event.target == registerModal) {
+                registerModal.style.display = "none";
+            }
+        }
+
+        // Form submissions with validation
+        document.getElementById('login-form').addEventListener('submit', (e) => {
+            e.preventDefault();
+            const email = document.querySelector('#login-form input[type="email"]').value;
+            const password = document.querySelector('#login-form input[type="password"]').value;
+            if (email && password) {
+                alert('Sesión iniciada (demo)');
+                loginModal.style.display = "none";
+            } else {
+                alert('Por favor, completa todos los campos.');
+            }
+        });
+
+        document.getElementById('register-form').addEventListener('submit', (e) => {
+            e.preventDefault();
+            const name = document.querySelector('#register-form input[type="text"]').value;
+            const email = document.querySelector('#register-form input[type="email"]').value;
+            const password = document.querySelector('#register-form input[type="password"]').value;
+            if (name && email && password) {
+                alert('Registro completado (demo)');
+                registerModal.style.display = "none";
+            } else {
+                alert('Por favor, completa todos los campos.');
+            }
+        });
+    </script>
+</body>
+</html>
